@@ -1,0 +1,13 @@
+configs:
+    - Dir: D:\Dev\DTK\项目\嘉里大通UQ\Code\UQWCS\Backend\ConsoleApp1\bin\Debug\net8.0\Log
+      Extensions: ".log,.tmp"
+      Days: 7
+      RemoveEmptyDir: true
+      CheckInterval: 1h
+      IsEnable: true
+    - Dir: D:\Dev\DTK\项目\嘉里大通UQ\Code\UQWCS\Backend\UQWCS.WebApi\bin\Debug\net8.0-windows\Log
+      Extensions: ".log,.txt"
+      Days: 18
+      RemoveEmptyDir: true
+      CheckInterval: 1h
+      IsEnable: true

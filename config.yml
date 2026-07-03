@@ -1,0 +1,13 @@
+configs:
+    - Dir: D:\logs
+      Extensions: ".log,.tmp"
+      Days: 7
+      RemoveEmptyDir: true
+      CheckInterval: 1h
+      IsEnable: true
+    - Dir: D:\temp
+      Extensions: ""
+      Days: 30
+      RemoveEmptyDir: false
+      CheckInterval: 1h
+      IsEnable: false
